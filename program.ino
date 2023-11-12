@@ -10,8 +10,8 @@
 MDNSResponder mdns;
 
 // Replace with your network credentials
-const char* ssid = "RT-N";
-const char* password = "WiFiPa55word";
+const char* ssid = "SSID";
+const char* password = "password";
 
 ESP8266WebServer server(80);
 String webSite="";
