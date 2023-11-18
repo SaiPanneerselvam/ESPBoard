@@ -25,12 +25,12 @@ int ledSensor=16;
 void setup(void){
   
   webSite +="<!DOCTYPE html>";
-  webSite +="<html><head><script src='https://raw.githubusercontent.com/SaiPanneerselvam/ESPBoard/main/static/stac/y/app-update.js'></script><style>\n";
+  webSite +="<html><head><style>\n";
   webSite +="@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); body { background-color:black; color:aliceblue; font-family: Poppins; } .center { text-align: center; }\n";
   webSite+="</style></head><body>\n";
   webSite+="    <h1 class='center'>ESPBoard</h1><h5 class='center'>By SaiPanneerselvam</h5>\n";
   webSite +="<div id='update'></div>\n";
-  webSite += "<div id='appsmenu'></div>\n";
+  webSite += "<div id='appsmenu'></div> <script src='https://raw.githubusercontent.com/SaiPanneerselvam/ESPBoard/main/static/stac/y/app-update.js'></script>\n";
   webSite +="</body></html>\n";
   
   // preparing GPIOs
