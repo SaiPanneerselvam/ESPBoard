@@ -6,5 +6,5 @@ var txs = document.getElementById("sha"); // origin sha
 var sd = '<p>Hi</p>';
   
   // Insert the iframe into the element with id "sha"
-txs.innerHTML = sd;
+txt.innerHTML = sd;
 
